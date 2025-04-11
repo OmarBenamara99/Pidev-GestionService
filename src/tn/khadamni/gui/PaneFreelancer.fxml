@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="160.0" prefWidth="795.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.khadamni.gui.PaneFreelancerController">
+   <children>
+      <ImageView fx:id="img" fitHeight="128.0" fitWidth="112.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" />
+      <Line endX="-102.0" endY="96.99998474121094" layoutX="232.0" layoutY="57.0" startX="-102.0" startY="-57.0" />
+      <Label fx:id="idNomPrenom" layoutX="142.0" layoutY="13.0" text="nom et prenom" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="idtel" layoutX="142.0" layoutY="53.0" text="N° telephone" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Cambria Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="idprofdesc" layoutX="142.0" layoutY="117.0" text="Profession et desc" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Cambria Bold" size="20.0" />
+         </font>
+      </Label>
+      <Circle fx:id="circle" fill="#b6bbbf" layoutX="780.0" layoutY="25.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="idadr" layoutX="142.0" layoutY="86.0" text="address" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Cambria Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="calendriereng" layoutX="712.0" layoutY="129.0" mnemonicParsing="false" onAction="#afficherEngagement" text="Engagement" />
+      <Button fx:id="profil" layoutX="652.0" layoutY="130.0" mnemonicParsing="false" onAction="#afficheProfil" text="profil" />
+   </children>
+</AnchorPane>

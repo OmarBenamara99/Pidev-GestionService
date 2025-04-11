@@ -1,0 +1,103 @@
+# Ignore credentials file that contains Google OAuth Client ID & Secret
+src/tn/khadamni/api/credentials.json
+
+# Ignore Java files where Slack API tokens were detected
+src/tn/khadamni/api/MessengerSlack.java
+src/tn/khadamni/api/SlackapiController.java
+
+# Optionally ignore all JSON files in that folder (if they might contain secrets)
+# src/tn/khadamni/api/*.json
+
+# Optional: ignore secrets pattern files
+*.pem
+*.key
+*.crt
+*.p12
+*.keystore
+*.env
+.env
+*.secret
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Other build tools
+bin/
+gen/
+tmp/
+
+# Environment / Config
+.env
+*.env
+*.local
+*.config
+
+# Sensitive data
+credentials.json
+*.keystore
+*.pem
+*.p12
+
+# Node.js (in case you have frontend stuff)
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Ignore idea crash logs
+hs_err_pid*
+
+# Ignore test reports
+test-output/

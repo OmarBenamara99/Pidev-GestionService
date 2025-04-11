@@ -1,0 +1,121 @@
+#AnchorPane
+{
+        -fx-background-color:#FFFFFF;
+
+}
+#ajouter
+{
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-border-color: yellow;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+#free{
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-border-color: yellow;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+#exit
+{
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-border-color: red;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+#l1
+{
+    -fx-background-color: yellow;
+    -fx-background-radius: 5px;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+#l2
+{
+    -fx-background-color: yellow;
+    -fx-background-radius: 5px;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+#l3
+{
+    -fx-background-color: yellow;
+    -fx-background-radius: 5px;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+#l4
+{
+    -fx-background-color: yellow;
+    -fx-background-radius: 5px;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+#l5
+{
+    -fx-background-color: yellow;
+    -fx-background-radius: 5px;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+#l6
+{
+    -fx-background-color: yellow;
+    -fx-background-radius: 5px;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+#l7
+{
+   
+    -fx-background-radius: 5px;
+  
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+#l8
+{
+   
+    -fx-background-radius: 5px;
+    
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}

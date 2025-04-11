@@ -1,0 +1,33 @@
+#top_pane
+{
+-fx-background-color:#FFCC09 ;   
+}
+#pane_image
+{
+-fx-background-color:white ;   
+}
+#AnchorPane
+{
+     -fx-background-color:#EFEBEB;
+ 
+}
+
+#pane_center
+{
+    -fx-background-color:white;
+        -fx-background-radius: 20px;  
+
+    
+}
+#img
+{
+       -fx-border-style:dotted;
+                -fx-background-radius: 20px;  
+
+}
+#btnModifier
+{
+     -fx-background-color:#2980B9;
+-fx-text-fill:white;
+    
+}

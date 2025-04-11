@@ -1,0 +1,61 @@
+#AnchorPane
+{
+        -fx-background-color:#FFFFFF;
+
+}
+#name
+{
+      -fx-background-color: white;
+    -fx-background-radius: 5px;
+    
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+#lastname
+{
+      -fx-background-color: white;
+    -fx-background-radius: 5px;
+    
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+#numero
+{
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+#mail
+{
+      -fx-background-color: white;
+    -fx-background-radius: 5px;
+    
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+#back
+{
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+#qrcode
+{
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}

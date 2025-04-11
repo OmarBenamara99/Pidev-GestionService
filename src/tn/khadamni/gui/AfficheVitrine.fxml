@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="mybutton" prefHeight="500.0" prefWidth="795.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.khadamni.gui.AfficheVitrineController">
+   <Pane id="pane_top" layoutY="1.0" prefHeight="65.0" prefWidth="795.0" stylesheets="@css/panedesign.css">
+      <children>
+         <TextField fx:id="recherche" focusTraversable="false" layoutX="261.0" layoutY="20.0" onKeyReleased="#rechercher" prefHeight="25.0" prefWidth="290.0" promptText="chercher Service" />
+      </children></Pane>
+   <Pane layoutX="-1.0" layoutY="76.0" prefHeight="423.0" prefWidth="789.0">
+      <children>
+         <ScrollPane fx:id="scrollPane" layoutY="1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="423.0" prefWidth="789.0">
+            <content>
+               <GridPane fx:id="gridPane" alignment="CENTER" hgap="50.0" prefHeight="410.0" prefWidth="779.0" vgap="50" />
+            </content>
+         </ScrollPane>
+      </children>
+   </Pane>
+</AnchorPane>

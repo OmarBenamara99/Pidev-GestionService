@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="620.0" prefWidth="824.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.khadamni.gui.FreelancerhomeController">
+   <children>
+      <ImageView fx:id="pdp" fitHeight="163.0" fitWidth="159.0" layoutX="52.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="logout" layoutX="562.0" layoutY="99.0" mnemonicParsing="false" onAction="#logout" text="se deconnecter" />
+      <Text fx:id="nom" layoutX="368.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="121.00000822544098" />
+      <Button fx:id="profil" layoutX="457.0" layoutY="99.0" mnemonicParsing="false" onAction="#profil" text="profil" />
+      <Button fx:id="map" layoutX="550.0" layoutY="304.0" mnemonicParsing="false" onAction="#map" text="Button" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,71 @@
+#AnchorPane
+{
+        -fx-background-color:#FFFFFF;
+
+}
+#oublier
+{
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-border-color: red;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+#connect
+{
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-border-color: yellow;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+#reset
+{
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-border-color: yellow;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+#inscrire
+{
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-border-color: greenyellow;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+#mail
+{
+    -fx-background-color: yellow;
+    -fx-background-radius: 5px;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+#mdp
+{
+    -fx-background-color: yellow;
+    -fx-background-radius: 5px;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+   -fx-border-radius: 20px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}

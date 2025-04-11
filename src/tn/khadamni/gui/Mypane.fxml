@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="pane_des" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="301.0" prefWidth="204.0" stylesheets="@css/panedesign.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.khadamni.gui.MypaneController">
+   <TextField fx:id="descriptionLabel" editable="false" layoutX="28.0" layoutY="223.0" prefHeight="45.0" prefWidth="149.0" />
+   <ImageView fx:id="img" fitHeight="107.0" fitWidth="141.0" layoutX="32.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true" />
+   <Label fx:id="nameLabel" alignment="CENTER" layoutY="179.0" prefHeight="31.0" prefWidth="204.0" text="Label" textAlignment="CENTER" textFill="#fcf8f8" wrapText="true">
+      <font>
+         <Font name="Cambria" size="25.0" />
+      </font>
+   </Label>
+</AnchorPane>

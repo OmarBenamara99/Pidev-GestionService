@@ -1,0 +1,38 @@
+.mainFxmlClass {
+
+}
+#pane_top
+{
+ -fx-background-color:#FFCC09;
+
+}
+#pane_logo
+{
+ -fx-background-color:white;
+
+}
+#pane_service
+{
+  -fx-background-color: #515047;
+    -fx-background-radius: 10px;  
+}
+#pane_service1
+{
+  -fx-background-color: #FFCC09;
+    -fx-background-radius: 10px;  
+}
+
+#effacer
+{
+      -fx-background-color: #515047;
+
+}
+#search_box
+{
+    -fx-background-color:white;
+    -fx-background-radius:100;
+}
+#leftpane
+{
+    -fx-background-color:#D3D3D3D3;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="350.0" stylesheets="@css/card.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.khadamni.gui.UserCardController">
+   <children>
+      <ImageView id="backgrond" fitHeight="600.0" fitWidth="350.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="pdp" fitHeight="250.0" fitWidth="350.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true" />
+      <Label id="name" fx:id="name" layoutX="89.0" layoutY="359.0" prefHeight="34.0" prefWidth="151.0" text="name" />
+      <Label id="lastname" fx:id="prenom" layoutX="89.0" layoutY="399.0" prefHeight="21.0" prefWidth="119.0" text="prenom" />
+      <Label id="numero" fx:id="num" layoutX="89.0" layoutY="439.0" prefHeight="27.0" prefWidth="138.0" text="numero" />
+      <Label id="mail" fx:id="mail" layoutX="89.0" layoutY="479.0" prefHeight="34.0" prefWidth="253.0" text="mail" />
+      <Button id="back" fx:id="back" layoutX="123.0" layoutY="538.0" mnemonicParsing="false" onAction="#retour" text="back" />
+      <Button id="qrcode" fx:id="qrcode" layoutX="217.0" layoutY="538.0" mnemonicParsing="false" onAction="#qrcode" text="qrcode" />
+   </children>
+</AnchorPane>

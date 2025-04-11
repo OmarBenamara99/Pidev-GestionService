@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="retour" prefHeight="533.0" prefWidth="864.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.khadamni.gui.GererSousServiceController">
+   <children>
+      <Pane fx:id="global" prefHeight="60.0" prefWidth="864.0" />
+      <Pane id="pane_center" layoutX="130.0" layoutY="75.0" prefHeight="357.0" prefWidth="605.0" stylesheets="@css/gererSousService.css">
+         <children>
+            <Text layoutX="199.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ajouter Sous Service">
+               <font>
+                  <Font name="Cambria Bold" size="22.0" />
+               </font>
+            </Text>
+            <TextField fx:id="txtNom" layoutX="33.0" layoutY="92.0" onKeyReleased="#verifNom" prefHeight="25.0" prefWidth="185.0" promptText="Nom de sous service" />
+            <TextField fx:id="txtDesc" layoutX="33.0" layoutY="154.0" onKeyReleased="#verifdes" prefHeight="25.0" prefWidth="185.0" promptText="Description de sous service" />
+            <Button id="btnAjouter" fx:id="btnAjouter" layoutX="276.0" layoutY="318.0" mnemonicParsing="false" onAction="#ajouter" stylesheets="@css/gererSousService.css" text="ajouter" />
+            <ComboBox fx:id="listDeroulant" layoutX="51.0" layoutY="214.0" onAction="#listderoulant" prefWidth="150.0" />
+            <Pane id="imgborder" layoutX="339.0" layoutY="96.0" prefHeight="166.0" prefWidth="169.0" stylesheets="@css/gererSousService.css">
+               <children>
+                  <ImageView fx:id="img" fitHeight="166.0" fitWidth="169.0" onMouseClicked="#choisirImage" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+   <stylesheets>
+      <URL value="@css/gererSousService.css" />
+      <URL value="@css/gererSousService.css" />
+   </stylesheets>
+</AnchorPane>

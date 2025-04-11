@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mybutton" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.khadamni.gui.PostuleFController">
+   <children>
+      <Pane id="pane_top" layoutX="200.0" prefHeight="60.0" prefWidth="700.0" stylesheets="@../css/styleoffre.css" />
+      <ImageView fitHeight="60.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/Final.png" />
+         </image>
+      </ImageView>
+      <Pane id="pane_mid" layoutY="60.0" prefHeight="540.0" prefWidth="900.0" stylesheets="@../css/styleoffre.css">
+         <children>
+            <ScrollPane id="my-scroll-pane" fx:id="scrollPane" layoutX="50.0" layoutY="108.0" prefHeight="400.0" prefWidth="800.0" stylesheets="@../css/styleoffre.css">
+               <content>
+                  <GridPane id="my-gridpane" fx:id="gridPane" onMouseClicked="#display" prefHeight="46.0" prefWidth="100.0" stylesheets="@../css/styleoffre.css">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                  </GridPane>
+               </content>
+            </ScrollPane>
+            <Label layoutX="100.0" layoutY="49.0" text="Catégorie :">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="serviceCombo" layoutX="200.0" layoutY="49.0" prefWidth="150.0" />
+            <Label layoutX="460.0" layoutY="49.0" text="Sous_Catégorie : ">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="sserviceCombo" layoutX="600.0" layoutY="49.0" prefWidth="150.0" />
+         </children></Pane>
+   </children>
+</AnchorPane>

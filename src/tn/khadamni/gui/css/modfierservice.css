@@ -1,0 +1,25 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+#pane_top
+{
+    -fx-background-color:#FFCC09;
+}
+#pane_center
+{
+        -fx-background-color:white;
+     -fx-background-radius: 20px;    
+}
+#btnM
+{
+    -fx-background-color:#3371FF;
+    -fx-text-fill:white;
+}
+#AnchorPane
+{
+     -fx-background-color:white;
+}

@@ -1,0 +1,33 @@
+#top_pane
+{
+    -fx-background-color:#FFCC09;
+}
+
+#pane_img
+{
+    -fx-background-color:white;
+}
+#pane_center
+{
+    -fx-background-color:white;
+        -fx-background-radius: 20px;  
+
+    
+}
+#AnchorPane
+{
+     -fx-background-color:#EFEBEB;
+}
+#btnAjouter
+{
+     -fx-background-color:green;
+-fx-text-fill:white;
+    
+}
+#imgborder
+{
+        -fx-border-style:dotted;
+                -fx-background-radius: 20px;  
+
+
+}

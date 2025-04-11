@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.khadamni.gui.PostuleController">
+   <children>
+      <Pane id="pane_mid" prefHeight="600.0" prefWidth="900.0" stylesheets="@../css/styleoffre.css">
+         <children>
+            <ScrollPane id="my-scroll-pane" fx:id="scrollPane" layoutX="150.0" layoutY="60.0" prefHeight="540.0" prefWidth="620.0" stylesheets="@../css/styleoffre.css">
+               <content>
+                  <GridPane id="my-gridpane" fx:id="gridPane" stylesheets="@../css/styleoffre.css">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                  </GridPane>
+               </content>
+            </ScrollPane>
+            <Label id="title" alignment="CENTER" layoutX="150.0" prefHeight="60.0" prefWidth="750.0" stylesheets="@../css/styleoffre.css" text="Postules Pour ce Offre" textAlignment="CENTER">
+               <font>
+                  <Font name="Aparajita" size="36.0" />
+               </font>
+            </Label>
+            <Button layoutX="46.0" layoutY="145.0" mnemonicParsing="false" prefWidth="62.0" style="-fx-background-color: #D3D3D3;" text="Profil">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <ImageView fitHeight="60.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/Final.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="22.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/profile-icon-person-user-19.png" />
+         </image>
+      </ImageView>
+      <Separator layoutY="232.0" prefWidth="150.0" />
+      <Button layoutX="29.0" layoutY="263.0" mnemonicParsing="false" style="-fx-background-color: #D3D3D3;" text="Catégorie">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="19.0" layoutY="315.0" mnemonicParsing="false" style="-fx-background-color: #D3D3D3;" text="Sous catégorie">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Separator layoutY="375.0" prefWidth="150.0" />
+      <Button id="my-button" fx:id="rt" layoutX="22.0" layoutY="486.0" mnemonicParsing="false" onAction="#rtr" prefHeight="76.0" prefWidth="96.0" stylesheets="@../css/styleoffre.css" text="RETOUR" wrapText="true" />
+   </children>
+</AnchorPane>

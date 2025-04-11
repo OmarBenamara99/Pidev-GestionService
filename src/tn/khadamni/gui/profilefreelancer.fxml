@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="654.0" prefWidth="977.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.khadamni.gui.ProfilefreelancerController">
+   <children>
+      <Pane id="pane_top" prefHeight="68.0" prefWidth="977.0" stylesheets="@css/style.css">
+         <children>
+            <Pane id="image_pane" prefHeight="67.0" prefWidth="200.0" stylesheets="@css/style.css">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/logo.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <ImageView fx:id="pdp" fitHeight="150.0" fitWidth="200.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField fx:id="nom" layoutX="544.0" layoutY="177.0" />
+      <TextField fx:id="prenom" layoutX="544.0" layoutY="208.0" />
+      <TextField fx:id="num" layoutX="544.0" layoutY="239.0" />
+      <TextField fx:id="adresse" layoutX="544.0" layoutY="270.0" />
+      <TextField fx:id="description" layoutX="544.0" layoutY="301.0" />
+      <PasswordField fx:id="mdp" layoutX="544.0" layoutY="332.0" />
+      <Text layoutX="431.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="nom" wrappingWidth="51.19775390625" />
+      <Text layoutX="426.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="prenom" />
+      <Text layoutX="431.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="numero" />
+      <Text layoutX="432.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="adresse" />
+      <Text layoutX="432.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="description" />
+      <Text layoutX="432.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" text="mot de passe" />
+      <Button fx:id="ajout" layoutX="722.0" layoutY="112.0" mnemonicParsing="false" onAction="#ajouter" prefHeight="31.0" prefWidth="98.0" text="ajouter" />
+      <Button fx:id="modif" layoutX="620.0" layoutY="112.0" mnemonicParsing="false" onAction="#modifier" prefHeight="31.0" prefWidth="89.0" text="modifier" />
+      <Button fx:id="sup" layoutX="499.0" layoutY="112.0" mnemonicParsing="false" onAction="#supprimer" prefHeight="31.0" prefWidth="98.0" text="supprimer" />
+      <Button fx:id="session" layoutX="840.0" layoutY="594.0" mnemonicParsing="false" onAction="#logout" text="se deconnecter" />
+      <Button fx:id="home" layoutX="394.0" layoutY="112.0" mnemonicParsing="false" onAction="#back" text="home" />
+      <Button layoutX="296.0" layoutY="112.0" mnemonicParsing="false" onAction="#ajoutEngagment" text="calendrier" />
+   </children>
+</AnchorPane>

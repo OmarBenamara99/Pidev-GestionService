@@ -1,0 +1,54 @@
+#pane_top
+{
+    -fx-background-color:#D5D5D5D;
+}
+#label_title
+{
+    -fx-text-fill:white;
+}
+#anchorpane_center,#anchorpane_left,#anchorpane_right
+{
+    -fx-border-style:dotted;
+}
+#anchorpane_left
+{
+ -fx-backgound-color:#515047;
+    
+}
+-fx-button
+{
+-fx-opacity:0.9;
+-fx-text-fill:white;
+}
+#btn-save
+{
+    -fx-background-color:#0b824e;
+    -fx-text-fill:white;
+}
+#pane_logo
+{
+    -fx-background-color:white;
+}
+#btnModifier
+{
+    -fx-background-color:#3371FF;
+    -fx-text-fill:white;
+}
+#btn_supp
+{
+    -fx-background-color:#FF3C33;
+    -fx-text-fill:white;
+}
+#img
+{
+    -fx-border-style:dotted;
+}
+#pane_img
+{
+    -fx-border-style:dotted;
+    
+}
+#pane_left
+{
+    -fx-backgound-color:#515047;
+}

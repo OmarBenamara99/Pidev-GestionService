@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="110" prefWidth="795" stylesheets="@css/paneEngagment.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.khadamni.gui.PaneEngagmentController">
+   <children>
+      <Pane id="pane_top" prefHeight="34.0" prefWidth="795">
+         <stylesheets>
+            <URL value="@css/paneEngagment.css" />
+            <URL value="@css/paneEngagment.css" />
+         </stylesheets>
+         <children>
+            <Label fx:id="NomEvents" layoutX="307.0" layoutY="1.0" text="Nom" textFill="WHITE">
+               <font>
+                  <Font name="Cambria Bold" size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="8.0" layoutY="53.0" text="Le" textFill="#f8f5f5">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="359.0" layoutY="53.0" text="a" textFill="#fffdfd">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="jour" editable="false" layoutX="37.0" layoutY="56.0" prefHeight="25.0" prefWidth="125.0" />
+      <TextField fx:id="date" layoutX="169.0" layoutY="56.0" prefHeight="25.0" prefWidth="183.0" />
+      <TextField fx:id="heure" editable="false" layoutX="384.0" layoutY="56.0" />
+   </children>
+</AnchorPane>

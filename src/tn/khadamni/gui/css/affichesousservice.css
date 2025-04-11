@@ -1,0 +1,18 @@
+#top_pane{
+    -fx-background-color:#FFCC09;
+}
+#im_pane
+{
+        -fx-background-color:white;
+
+}
+#btnmodifier
+{
+       -fx-background-color:#2980B9;
+-fx-text-fill:white;
+}
+#btnsupprimer
+{
+ -fx-background-color:red;
+-fx-text-fill:white;    
+}

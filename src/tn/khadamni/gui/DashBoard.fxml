@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1030.0" stylesheets="@css/Dashboard.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.khadamni.gui.DashBoardController">
+   <children>
+      <ScrollBar layoutX="184.0" orientation="VERTICAL" prefHeight="599.0" prefWidth="14.0" />
+      <Pane layoutX="14.0" layoutY="14.0" prefHeight="42.0" prefWidth="157.0">
+         <children>
+            <ImageView fitHeight="42.0" fitWidth="144.0" layoutX="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Line endX="76.0" layoutX="93.0" layoutY="66.0" startX="-76.5" />
+      <ImageView fitHeight="25.0" fitWidth="27.0" layoutX="23.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/dash.PNG" />
+         </image>
+      </ImageView>
+      <Label layoutX="51.0" layoutY="85.0" prefHeight="18.0" prefWidth="83.0" text="Dashboard">
+         <font>
+            <Font name="Cambria Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="23.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/page.PNG" />
+         </image>
+      </ImageView>
+      <MenuButton fx:id="gererServiceMenuButton" layoutX="51.0" layoutY="143.0" mnemonicParsing="false" stylesheets="@css/Dashboard.css" text="Service">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <Pane fx:id="affichage" layoutX="198.0" layoutY="59.0" prefHeight="537.0" prefWidth="699.0" />
+      <Pane fx:id="pane_top" layoutX="197.0" layoutY="-1.0" prefHeight="61.0" prefWidth="831.0">
+         <children>
+            <Label fx:id="nomaff" alignment="CENTER" layoutX="29.0" layoutY="13.0" text="Label" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Cambria Bold" size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="21.0" layoutY="330.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/page.PNG" />
+         </image>
+      </ImageView>
+      <MenuButton fx:id="gererSServiceMenu" layoutX="50.0" layoutY="202.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="101.0" text="Sous Service">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="24.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/chart.PNG" />
+         </image>
+      </ImageView>
+      <Button layoutX="51.0" layoutY="263.0" mnemonicParsing="false" onAction="#affichechart" text="chart" />
+      <Button layoutX="47.0" layoutY="328.0" mnemonicParsing="false" onAction="#gestionUser" text="gestionUser" />
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="33.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/page.PNG" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

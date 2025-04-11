@@ -1,0 +1,325 @@
+#pane_top
+{
+    -fx-background-color:#7f7f7f;
+}
+
+#pane_mid
+{
+    -fx-background-color:#D3D3D3;
+}
+
+#pane_logo
+{
+    -fx-background-color:#FFFFFF;
+}
+
+
+
+#my-table-view {
+    -fx-background-color: #7f7f7f;
+}
+
+#my-table-view .column-header-background {
+    -fx-background-color: #7f7f7f;
+    -fx-background-radius: 0;
+}
+
+#my-table-view .column-header {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+}
+
+#my-table-view .table-row-cell {
+    -fx-background-color: white;
+    -fx-font-size: 14px;
+}
+
+#my-table-view .table-row-cell:hover {
+    -fx-background-color: #E6E6E6;
+}
+
+#my-table-view .table-row-cell:selected {
+    -fx-background-color: #FFCC09;
+    -fx-text-fill: white;
+}
+
+#my-button {
+    -fx-background-color: #FFCC09;
+    -fx-background-radius: 20;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+}
+
+#my-button:hover {
+    -fx-background-color: #FFD966;
+}
+
+
+
+
+#add-page {
+    -fx-background-color: white;
+}
+
+#label {
+    -fx-background-color: #D3D3D3;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #D3D3D3;
+    -fx-padding: 10px;
+}
+
+#text-field {
+    -fx-background-color: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px;
+    -fx-border-color: #7f7f7f;
+    -fx-border-radius: 5px;
+}
+
+#image-view {
+    -fx-padding: 10px;
+}
+
+#add-page .button {
+    -fx-background-color: #FFCC09;
+    -fx-background-radius: 20;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+}
+
+#add-page .button:hover {
+    -fx-background-color: #FFD966;
+}
+
+#submit-button {
+    -fx-background-color: #FFCC09;
+    -fx-background-radius: 20;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+}
+
+#submit-button:hover {
+    -fx-background-color: #FFD966;
+}
+
+ #cancel-button {
+    -fx-background-color: #7f7f7f;
+    -fx-background-radius: 20;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+}
+
+#cancel-button:hover {
+    -fx-background-color: #BFBFBF;
+}
+
+
+
+
+#modify-page {
+    -fx-background-color: #3D3D3D;
+}
+
+#labell {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 10px;
+}
+
+#text-fieldd {
+    -fx-background-color: #FFFFFF;
+    -fx-font-size: 14px;
+    -fx-padding: 8px;
+    -fx-border-color: #FFFFFF;
+    -fx-border-radius: 5px;
+}
+
+#modify-page .image-view {
+    -fx-padding: 10px;
+}
+
+#modify-page .button {
+    -fx-background-color: #FFCC09;
+    -fx-background-radius: 20;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+}
+
+#modify-page .button:hover {
+    -fx-background-color: #FFD966;
+}
+
+#submitt-button {
+    -fx-background-color: #FFCC09;
+    -fx-background-radius: 20;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+}
+
+#submitt-button:hover {
+    -fx-background-color: #FFD966;
+}
+
+#cancell-button {
+    -fx-background-color: #7f7f7f;
+    -fx-background-radius: 20;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+}
+
+#cancell-button:hover {
+    -fx-background-color: #BFBFBF;
+}
+
+
+
+
+#my-combo-box {
+    -fx-background-color: #7f7f7f;
+    -fx-background-insets: 0;
+    -fx-padding: 4px;
+}
+
+#my-combo-box .list-cell {
+    -fx-background-color: #7f7f7f;
+    -fx-text-fill: #FFFFFF;
+}
+
+#my-combo-box .list-cell:hover {
+    -fx-background-color: #FFCC09;
+}
+
+#my-combo-box .list-view {
+    -fx-background-color: #D3D3D3;
+    -fx-border-color: #7f7f7f;
+    -fx-border-radius: 4px;
+}
+
+#logo-button:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 10, 0, 0, 0);
+}
+
+
+
+/**//**//**//**//**/
+
+#myTextField {
+    -fx-background-color: #D3D3D3;
+    -fx-background-radius: 5px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-border-width: 1px;
+    -fx-padding: 5px;
+}
+
+#myTextField:focused {
+    -fx-border-color: #FFCC09;
+    -fx-border-width: 2px;
+}
+
+/* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* */
+
+.body-background{
+    -fx-background-color: #F4F4F4;
+}
+/* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* */
+
+#my-separator {
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-background-color: black;
+}
+
+#my-separator.horizontal {
+    -fx-background-insets: 0, 1 0 0 0;
+}
+
+#my-separator.vertical {
+    -fx-background-insets: 0, 0 0 0 1;
+}
+
+#my-vbox {
+    -fx-background-color: #7f7f7f; /* set background color */
+    -fx-background-radius: 10px; /* make the corners rounded */
+    -fx-border-radius: 10px; /* make the border corners rounded as well */
+    -fx-border-color: #7f7f7f; /* set the border color */
+    -fx-border-width: 1px; /* set the border width */
+}
+
+#desc {
+    -fx-text-fill: white; /* set the text color */
+    -fx-font-size: 14pt; /* set the font size */
+    -fx-font-weight: bold; /* set the font weight */
+    /*-fx-background-color: #3498db; /* set the background color */
+    -fx-padding: 5px; /* add some padding */
+    -fx-border-color: #FFCC09; /* set the border color */
+    -fx-border-width: 2px; /* set the border width */
+    -fx-border-radius: 5px; /* set the border radius */
+}
+
+#my-gridpane {
+    -fx-background-color: #D3D3D3; /* set the background color */
+    -fx-padding: 10px; /* add some padding */
+    -fx-border-color: #D3D3D3; /* set the border color */
+    -fx-border-width: 1px; /* set the border width */
+    -fx-border-radius: 5px; /* set the border radius */
+    -fx-grid-lines-color: red;
+}
+
+
+
+
+
+#my-scroll-pane {
+    -fx-background-color: #D3D3D3; /* set the background color */
+    -fx-border-color: #D3D3D3; /* set the border color */
+    -fx-border-width: 1px; /* set the border width */
+    -fx-border-radius: 5px; /* set the border radius */
+}
+
+#my-scroll-pane .viewport {
+    -fx-background-color: #D3D3D3; /* set the viewport background color */
+}
+
+#my-scroll-pane .scroll-bar {
+    -fx-background-color: #cccccc; /* set the scroll bar color */
+    -fx-background-radius: 5px; /* set the scroll bar radius */
+}
+
+#my-scroll-pane .scroll-bar:vertical {
+    -fx-padding: 0 5px 0 5px; /* add padding to the vertical scroll bar */
+}
+
+#my-scroll-pane .scroll-bar:horizontal {
+    -fx-padding: 5px 0 5px 0; /* add padding to the horizontal scroll bar */
+}
+
+#title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+    margin-top: 50px;
+  }
+
+
+
+
+

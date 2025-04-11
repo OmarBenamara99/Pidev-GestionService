@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="510.0" prefWidth="760.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.khadamni.gui.ModifierServiceController">
+    <stylesheets>
+        <URL value="@/tn/khadamni/gui/css/modfierservice.css" />
+    </stylesheets>
+   <children>
+      <Pane id="pane_center" layoutX="241.0" layoutY="14.0" prefHeight="363.0" prefWidth="279.0" stylesheets="@css/modfierservice.css">
+         <children>
+            <TextField fx:id="txtNom" layoutX="39.0" layoutY="144.0" onKeyReleased="#verifNom" prefHeight="25.0" prefWidth="201.0" promptText="Name" />
+            <TextField fx:id="txtdesc" layoutX="39.0" layoutY="182.0" onKeyReleased="#verifDesc" prefHeight="25.0" prefWidth="201.0" promptText="Description" />
+            <TextField fx:id="txtnb" layoutX="39.0" layoutY="222.0" onKeyReleased="#verifNb" prefHeight="25.0" prefWidth="201.0" promptText="Nombre de service" />
+            <Button id="btnM" fx:id="btnM" layoutX="94.0" layoutY="271.0" mnemonicParsing="false" onAction="#modfierService" stylesheets="@css/modfierservice.css" text="Modifier" />
+            <Button fx:id="btnAn" layoutX="167.0" layoutY="271.0" mnemonicParsing="false" onAction="#annuler" text="Annuler" />
+            <ImageView fx:id="img_m" fitHeight="97.0" fitWidth="153.0" layoutX="63.0" layoutY="23.0" onMouseClicked="#insertimage" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
